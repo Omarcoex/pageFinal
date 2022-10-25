@@ -12,3 +12,7 @@
 //             document.querySelector(".menus > ul").style.display = "none";            
 //         };
         
+    //create location?
+
+    const registro = document.getElementById("register");
+    document.getElementById("register").addEventListener('click',)

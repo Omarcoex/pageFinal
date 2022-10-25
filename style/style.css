@@ -26,11 +26,15 @@ header{
 .acerca-de {
   border: solid 1px red;  
   width: 80%;
-  margin: auto;
+  margin:auto;
   border-radius: 15px;
   background-color: #83838352;
   margin-bottom: 25px;
-  /* height: 50vh; */
+  /* width: 100px; */
+  /* height: 100px; */
+  /* min-height: 100px; */
+  /* display:block; */
+  /* word-wrap: break-word; */
   /* overflow: hidden; */
 }
 .title{
