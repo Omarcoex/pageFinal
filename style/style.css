@@ -1,0 +1,209 @@
+/* Seteo */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Menu */
+header .principal ul li a {
+  color: rebeccapurple;
+}
+.contendor-menu ul li a {
+  /* border-bottom: solid 1px; */
+  color: rebeccapurple;
+}
+
+header .contendor-menu {
+  background: rgb(46, 133, 209);
+  border: solid 1px;
+  border-radius: 15px;
+}
+header{
+  margin-bottom: 25px;
+}
+
+/* Section acerca de */
+.acerca-de {
+  border: solid 1px red;  
+  width: 80%;
+  margin: auto;
+  border-radius: 15px;
+  background-color: #83838352;
+  margin-bottom: 25px;
+  /* height: 50vh; */
+  /* overflow: hidden; */
+}
+.title{
+  font-size: 25px;
+  padding: 25px;
+  font-weight: bold;
+}
+.card-anuncio {
+  display: flex;
+  padding-top: 25px;  
+}
+.card-body{
+  height: 150px;
+  width: 170px; 
+}
+.card-text{
+font-size: 25px;
+text-align: justify;
+padding: 25px;
+
+}
+.img-4 img {
+  margin-top: 25px;
+  float: right;
+  height: 350px;
+  width: 350px;
+  border-radius:15px;
+  padding-right:25px;
+  padding-bottom: 25px;
+}
+.card-body .Contacto{
+  width: 155px;
+  height: 55px;
+  background-color: rgb(46, 133, 209);
+  color: white;
+  border-radius: 15px;
+}
+/* Cards */
+.tarjeta{
+  padding: 35px;
+  border: solid 1px red;  
+  width: 80%;  
+  margin: auto;
+  border-radius: 15px;
+  background-color: #83838352;
+  
+}
+.tarjeta h2{
+  text-align: center;
+}
+.tarj-card{
+  height: 350px;
+
+}
+.card{
+  background-color: #83838352;
+  width: 225px;
+  height: 250px;  
+}
+.perfil{
+  width: 85px;
+  margin: auto;
+  margin-top: 18px;
+}
+.card-title{
+text-align: center;
+font-size: 14px;
+}
+.parrafo{
+  font-size: 15px;
+  text-align: justify;
+  width: 150px;
+  
+}
+/* ============Estrellas============ */
+:root {
+  --color-inactivo:#ffa400 ;
+  --color-hover:rgb(46, 133, 209);
+}
+.valoracion {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.valoracion button {
+  background-color: initial;
+  border: 0;
+  color: var(--color-inactivo);
+  transition: 1s all;
+}
+.valoracion button:hover {
+  cursor: pointer;
+  color: var(--color-hover);
+  transform: rotate(360deg);
+}
+button:nth-child(1):hover ~ button {
+  color: var(--color-hover);
+  transform: rotate(360deg);
+}
+button:nth-child(2):hover ~ button {
+  color: var(--color-hover);
+  transform: rotate(360deg);
+}
+button:nth-child(3):hover ~ button {
+  color: var(--color-hover);
+  transform: rotate(360deg);
+}
+button:nth-child(4):hover ~ button {
+  color: var(--color-hover);
+  transform: rotate(360deg);
+}
+button:nth-child(5):hover ~ button {
+  color: var(--color-hover);
+  transform: rotate(360deg);
+}
+/* ============Estrellas============ */
+
+/* Preguntas frecuentes */
+.aswers{
+  padding: 35px;
+  border: solid 1px red;  
+  width: 80%;  
+  margin: auto;
+  border-radius: 15px;
+  background-color: #83838352;
+  margin-top: 25px;
+}
+.aswers_subcontainer{
+  background-color: aqua;
+  width: 250px;
+  
+}
+/* Footer */
+.contendor-footer{
+  border-radius: 15px;
+}
+.contendor-footer ul li a {
+  text-decoration: none;
+}
+
+/* Media screen para limitar a 580px */
+@media screen and (max-width: 580px) {
+  .principal {
+    position: relative;
+  }
+  .principal ul {
+    background: #838383;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    height: auto;
+    display: none;
+  }
+  .contendor-menu ul.menus {
+    width: 100%;
+    position: static;
+    border: none;
+  }
+  .contendor-menu li {
+    display: block;
+    float: none;
+    width: auto;
+    text-align: left;
+  }
+  .contendor-menu li a {
+    color: #fff;
+  }
+  .contendor-menu li a:hover {
+    color: #333;
+  }
+  .contendor-menu li:hover {
+    background: #bababa;
+    color: #333;
+  }
+}

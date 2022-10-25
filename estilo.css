@@ -1,0 +1,14 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contendor-menu ul li a {
+  border-bottom: solid 1px;
+}
+
+header .contendor-menu {
+  background: rgb(46, 133, 209);
+  border: solid 1px;
+  border-radius: 15px;
+}
