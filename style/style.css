@@ -30,6 +30,7 @@ header{
   border-radius: 15px;
   background-color: #83838352;
   margin-bottom: 25px;
+  flex-wrap: wrap;
   /* width: 100px; */
   /* height: 100px; */
   /* min-height: 100px; */
@@ -47,7 +48,7 @@ header{
   padding-top: 25px;  
 }
 .card-body{
-  height: 150px;
+  /* height: 150px; */
   width: 170px; 
 }
 .card-text{
@@ -86,7 +87,7 @@ padding: 25px;
   text-align: center;
 }
 .tarj-card{
-  height: 350px;
+  /* height: 350px; */
 
 }
 .card{
@@ -158,13 +159,19 @@ button:nth-child(5):hover ~ button {
   width: 80%;  
   margin: auto;
   border-radius: 15px;
-  background-color: #83838352;
+  /* background-color: #83838352; */
   margin-top: 25px;
 }
+.accordion-item{
+  border: solid 1px rgb(46, 133, 209);
+}
 .aswers_subcontainer{
-  background-color: aqua;
-  width: 250px;
+  background-color: rgb(46, 133, 209);
+  border-radius: 15px 15px 0 0 ;
   
+}
+.accordion-body{
+  border: solid 1px rgb(46, 133, 209);
 }
 /* Footer */
 .contendor-footer{
